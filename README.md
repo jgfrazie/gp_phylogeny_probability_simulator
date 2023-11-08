@@ -8,3 +8,9 @@ Simulate a run with specified parameters found in the main function. Then, speci
 
 1) Experimental Results
 2) Estimated Threshold Results
+
+## TODO (eventually)
+
+1) Put simulator in class
+2) Possibly put statistics stuff in class as well?
+3) Clean up documentation
