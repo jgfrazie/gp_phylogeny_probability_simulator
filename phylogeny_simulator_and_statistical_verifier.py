@@ -172,7 +172,7 @@ def percent_cases_above_ancestor(results, target_generation, targeted_ancestors)
 
 
 def phylogeny_threshold_estimation(d, n):
-    """Calculates the threshold estimation from developed in class. NOTE: n should be target_generation - targeted_ancestors + 1
+    """Calculates the threshold estimation from developed formula. NOTE: n should be target_generation - targeted_ancestors + 1
        as the formula is inclusive and the function is exculsive."""
     assert(n >= 0)
     return 1.0 - ((1.0 - d) ** n)
